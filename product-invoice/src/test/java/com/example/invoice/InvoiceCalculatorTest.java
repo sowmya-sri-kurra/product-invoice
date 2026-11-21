@@ -13,7 +13,7 @@ public class InvoiceCalculatorTest {
 
     @Test
     void testProductAmount() {
-        assertEquals(60000.0, invoice.calculateProductAmount(2500.0, 2));
+        assertEquals(5000.0, invoice.calculateProductAmount(2500.0, 2));
     }
 
     @Test
